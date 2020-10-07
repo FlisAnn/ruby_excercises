@@ -31,3 +31,9 @@ is this a declation of the argument? I had problem finding what I should use as 
 row 19: puts= prints and then we call for the argument person and the value of the hashes
 
 row 20: end ends the function
+
+
+Movie Kata
+
+I read teh instruction as that ther eshould me a number before each year which led me to for-loops
+And once again I had a hard time figureing out that you can add an argument to the pipes without it being declared before. 
