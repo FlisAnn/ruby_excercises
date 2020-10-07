@@ -6,6 +6,6 @@ movie5 = {title: "Zootopia", year: 2016 }
 
 movie = [movie1, movie2, movie3, movie4, movie5]
 
-    puts movie
+movie.each { |key, value| puts "Year #{:year}" }
     
 
