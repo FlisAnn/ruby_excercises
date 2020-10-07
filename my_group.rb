@@ -5,7 +5,7 @@ person3 = { name:"Mio", gender:"Male", age:5}
 
 group = [person1, person2, person3]
 
-group.each do |nperson|
+group.each do |person|
     puts "#{person[:name]} is a #{person[:age]} year old #{person[:gender]}"
 end
 
