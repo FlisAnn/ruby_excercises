@@ -37,3 +37,8 @@ Movie Kata
 
 I read teh instruction as that ther eshould me a number before each year which led me to for-loops
 And once again I had a hard time figureing out that you can add an argument to the pipes without it being declared before. 
+
+SyntaxError
+
+I interperate this as the user has added a ')' instead of a '}'
+
