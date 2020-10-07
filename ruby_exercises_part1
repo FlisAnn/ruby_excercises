@@ -4,5 +4,5 @@ movie3 = {title: "Cinderella", year: 1950 }
 movie4 = {title: "Bolt", year: 2008 }
 movie5 = {title: "Zootopia", year: 2016 }
 
-puts year
+puts movie1
 
