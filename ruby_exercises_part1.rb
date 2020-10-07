@@ -6,7 +6,7 @@ movie5 = {title: "Zootopia", year: 2016 }
 
 movie = [movie1, movie2, movie3, movie4, movie5]
 
-movie.each do |value| 
+movie.each do |year| 
 puts "#{:year}"
 end    
 
