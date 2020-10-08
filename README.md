@@ -4,7 +4,7 @@ git add README.md
 git commit -m Added README-file
 git remote add origin https://github.com/FlisAnn/ruby_excercises.git
 git push -u origin 
-echo # ruby_exccercises!
+echo # ruby_excercises!
 
 
 Group Kata
@@ -26,7 +26,7 @@ row 16: Put the hashes in an array. This is what I was having problems with, I s
 
 row 18: the each iterator returns all the elements of an array or a hash. In this case we take group and go through the array i.e. person1, person2, person3. 
 person = argument.
-is this a declation of the argument? I had problem finding what I should use as an argument as well, I was trying different things such as key and value
+is this a declaration of the argument? I had problem finding what I should use as an argument as well, I was trying different things such as key and value
 
 row 19: puts= prints and then we call for the argument person and the value of the hashes
 
@@ -35,10 +35,15 @@ row 20: end ends the function
 
 Movie Kata
 
-I read teh instruction as that ther eshould me a number before each year which led me to for-loops
+I read teh instruction as that there should me a number before each year which led me to for-loops
 And once again I had a hard time figureing out that you can add an argument to the pipes without it being declared before. 
 
 SyntaxError
 
-I interperate this as the user has added a ')' instead of a '}'
+I interpreted this as the user has added a ')' instead of a '}'
 
+Name Kata
+
+chomp is a string method that gets the user input and gets returns a string. adding to_i handles numeric input. 
+
+But I thought we would do a loop solution instead of printing everything, but that will most certainly come :)
