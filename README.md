@@ -51,6 +51,10 @@ But I thought we would do a loop solution instead of printing everything, but th
 
 Array Kata
 
+We set num between || which means we are looking for it. For every element in the array, each runs the block, passing it the element as an argumen
+
+num == number The equal-to operator ( == ) returns true if both operands have the same value; otherwise, it returns false . 
+
 irb(main):001:0> arr = ["b", "a"]
 => ["b", "a"]
 irb(main):002:0> arr = arr.product(Array(1..3)) 
@@ -66,3 +70,28 @@ irb(main):006:0> arr = arr.product([Array(1..3)])
 irb(main):007:0> arr.first.delete(arr.first.last)
 => [1, 2, 3]
 irb(main):008:0>
+
+
+arr = [["test","hello","world"],["example","mem"]]
+
+arr[1][0] 1 looks in the second array and 0 takes the first value
+
+arr.index(5)
+3
+
+arr.index[5]
+NoMethodError (undefined method `[]' for #<Enumerator: [15, 7, 18, 5, 12, 8, 5, 1]:index>)
+
+arr[5]
+8
+
+irb(main):038:0> string = "Welcome to America!"
+=> "Welcome to America!"
+irb(main):039:0> a = string[6]
+=> "e"
+irb(main):040:0> b = string[11]
+=> "A"
+irb(main):041:0> c = string[19]
+=> nil
+irb(main):042:0>
+
