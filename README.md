@@ -47,3 +47,22 @@ Name Kata
 chomp is a string method that gets the user input and gets returns a string. adding to_i handles numeric input. 
 
 But I thought we would do a loop solution instead of printing everything, but that will most certainly come :)
+
+
+Array Kata
+
+irb(main):001:0> arr = ["b", "a"]
+=> ["b", "a"]
+irb(main):002:0> arr = arr.product(Array(1..3)) 
+=> [["b", 1], ["b", 2], ["b", 3], ["a", 1], ["a", 2], ["a", 3]]
+irb(main):003:0> irb(main):003:0> arr.first.last)
+=> 1
+irb(main):004:0> arr.first.delete(arr.first.last)
+=> "b"
+irb(main):005:0> arr = ["b", "a"]
+=> ["b", "a"]
+irb(main):006:0> arr = arr.product([Array(1..3)])
+=> [["b", [1, 2, 3]], ["a", [1, 2, 3]]]
+irb(main):007:0> arr.first.delete(arr.first.last)
+=> [1, 2, 3]
+irb(main):008:0>
