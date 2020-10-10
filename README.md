@@ -95,3 +95,21 @@ irb(main):041:0> c = string[19]
 => nil
 irb(main):042:0>
 
+Family Kata
+
+When we have nested arrays (an array in which there are elements that are also arrays) we can use the flatten method which will return a one-dimensional array, an array where all values are on the same level
+
+merge vs merge!
+
+Syntax: Hash.merge()
+
+Parameter: Hash values
+
+Return: combine two hash arrays
+
+
+Syntax: Hash.merge!()
+
+Parameter: Hash values
+
+Return: add the content the given hash array to the other
